@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #560079;
+background-attachment: fixed 
+}
+
+
+
+/* /ESTILOS DE LETRAS/ */
+h2{
+    font-size: 30px; 
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1.1px;
+}
+h2 span{
+    color: #1DA1F2;
+}
+h3{
+    font-size: 18px; 
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.327);
+}
+
+
+/* /ESTILOS HEADER/ */
+
+.header{
+    margin: 5px 30px;  
+}
+.redes_sociales{
+text-align: center;
+}
+.redes{
+    margin: 10px;
+}
+
+ .iconos{
+    width: 30px;
+    align-items: center;
+    margin: 10px;
+    transition: all 0.3s;
+  
+}
+.header .iconos:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    
+}
+.perfil_foto img{
+    width: 240px;
+    height: 240px;
+    border: 4px solid white;
+    border-radius: 50%;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+    
+}
+
+.perfil_container{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    margin-top: 30px;
+
+}
+.perfil_foto{
+    width: 250px;
+    height: 250px;
+    grid-column: 6/6;
+}
+
+.perfil_descripcion{
+    width: 500px;
+    height: 250px;
+    grid-column: 7/18;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.perfil_descripcion-texto{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.button1 button{
+    width: 180px;
+    height: 44px;
+    border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #690292;
+   border: 2px solid rgb(125, 122, 122);
+}
+
+.button_img{
+    width: 30px;
+    margin: 10px;
+}
+
+.button2 button{
+    width: 140px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #690292;
+   border: 2px solid rgb(125, 122, 122);
+   
+}
+.button3 button{
+    width: 170px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #690292;
+   border: 2px solid rgb(125, 122, 122);
+}
+
+.buttons{
+   display:flex;
+   justify-content:center;
+   align-content: center;
+   gap: 30px;
+   
+}
+button{
+    transition: all 0.3s;
+}
+
+button:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.img_tarjeta{
+    transition: all 0.3s;
+}
+.img_tarjeta:hover{
+    transform: rotate(7deg);
+}
+.img_hobbies{
+    width: 50px;
+    margin: 7px;
+}
+
+.caja_divisor{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.divisor{
+    width: 1200px;
+    border-top: 2px solid black;
+
+    margin: 10px;
+   
+}
+
+
+.portfolio_titulo{
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 5px;  
+}
+
+.proyectos{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr) ;
+    grid-template-rows: repeat(4,250px);
+    gap: 15px;
+}
+
+
+
+.caja1{
+    width: 100%;
+    height: 100%;
+  background-repeat: no-repeat;
+    grid-column: 1/3;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+}
+.cajas_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.caja2{
+    background-color: blue;
+    grid-column: 3/5;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+
+}
+.caja3{
+    background-color: greenyellow;
+    grid-column: 5/7;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+.caja4{
+    background-color: #92028b;
+    grid-column: 7/9;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+.caja5{
+    background-color: chartreuse;
+    grid-column: 1/3;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+.caja6{
+    background-color: black;
+    grid-column: 3/7;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+.caja7{
+    background-color: red;
+    grid-column:7/9 ; 
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+.caja8{
+    background-color: green;
+    grid-column: 1/3;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+.caja9{
+    background-color: green;
+    grid-column: 3/5;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+.caja10{
+    background-color: green;
+    grid-column: 5/7;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+.caja11{
+    background-color: green;
+    grid-column: 7/9;
+    border-radius: 15px;
+    grid-row: 2/4;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+
+.caja12{
+    background-color: red;
+    grid-column: 1/5;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+.caja13{
+    background-color: red;
+    grid-column: 5/9;
+    border-radius: 15px;
+    box-shadow: 8px 8px 3px rgba(22, 21, 21, 0.45);
+
+}
+
+.caja{
+    border-radius: 30px;
+    border-radius: 15px;
+}
+
+
+
+
+.iconos_footer{
+    width: 50px;
+}
+
+
+.reserved{
+    display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.iconos_grid{
+    display: flex;
+    justify-content: center;
+}
+.iconos{
+    cursor: pointer;
+}
+
+.iconos:hover{
+    transform: scale(1.3);
+}
+
+.tarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+.about{
+    border: none;
+    width: auto;
+    height: auto;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 60px;
+    gap: 35px;
+}
+
+.container-perfil{
+    width: 100%;
+    height: 100%;
+    background-image: url(./fotos/perfil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 30px;
+    box-shadow: 8px 12px 3px rgba(22, 21, 21, 0.45);
+
+
+}
+
+.presentacion{
+    height: 100%;
+    border-radius: 30px;
+    background-color: white;
+    
+
+}
+.presentacion_texto{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 30px;
+
+    
+    text-align: left;
+    color: #2F0252;
+    font-family: 'Zilla Slab', serif;
+    letter-spacing: 0.125rem;
+    width: calc(100% + 0.125rem);
+    font-size: 1em;
+    line-height: 1.75;
+    font-weight: 400;
+    box-shadow: 8px 12px 3px rgba(22, 21, 21, 0.45);
+
+}
+
+.forma{
+    margin: 30px;
+    
+}
+
+.form{
+    width: 100%;
+    margin: 30px;
+    display: grid;
+    grid-template-rows: repeat(6,45px);
+    justify-content: center;
+    gap: 8px;
+}
+
+.input_text{
+    height: 100%;
+    width: 60vw;
+    border-radius: 5px;
+    border: none;
+    background-color: #2F0252;
+    font-size: 15px; 
+    color: rgba(211, 211, 211, 0.711);
+
+   
+}
+.input_text::placeholder {
+    color: rgba(211, 211, 211, 0.711);
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1.1px;   
+  }
+.input_caja{
+    width: 60vw;
+    border-radius: 5px;
+    border: none;
+    background-color: #2F0252;
+    height: 100%;
+    grid-row: 4/8;
+    font-size: 15px; 
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1.1px;
+    text-align: left;
+    vertical-align: top;
+    color: rgba(211, 211, 211, 0.711);
+
+}
+.input_caja::placeholder {
+    color: rgba(211, 211, 211, 0.711);
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1.1px;   
+  }
+
+.button {
+    text-align: center;
+ }
+
+ .button button{
+    width: 140px;
+    height: 55px;
+    border-radius: 50px;
+    border: none;
+    color: black;
+    font-size: 18px;
+    background-color: #F2FF63;
+    
+ }
+
+ .button button:hover{
+ background-color: #8902bf;
+ }
+
